@@ -38,7 +38,7 @@ android {
         release {
             storeFile file("photoa_lbum.jks")
             storePassword "zxcvasdf"
-            keyAlias "photo_album.jks"
+            keyAlias "photoalbum.jks"
             keyPassword "zxcvasdf"
         }
     }
