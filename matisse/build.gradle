@@ -14,8 +14,6 @@
  * limitations under the License.
  */
 apply plugin: 'com.android.library'
-apply plugin: 'com.novoda.bintray-release'
-apply plugin: 'checkstyle'
 
 android {
     compileSdkVersion 27
@@ -51,21 +49,21 @@ dependencies {
 
 // jcenter configuration for novoda's bintray-release
 // $ ./gradlew clean build bintrayUpload -PbintrayUser=BINTRAY_USERNAME -PbintrayKey=BINTRAY_KEY -PdryRun=false
-publish {
-    userOrg = 'zhihu'
-    groupId = 'com.zhihu.android'
-    artifactId = 'matisse'
-    publishVersion = '0.5.1'
-    desc = 'A well-designed local image selector for Android'
-    website = 'https://www.zhihu.com/'
-}
-
-task checkstyle(type:Checkstyle) {
-    description 'Runs Checkstyle inspection against matisse sourcesets.'
-    group = 'Code Quality'
-    configFile rootProject.file('checkstyle.xml')
-    ignoreFailures = false
-    showViolations true
-    classpath = files()
-    source 'src/main/java'
-}
+//publish {
+//    userOrg = 'zhihu'
+//    groupId = 'com.zhihu.android'
+//    artifactId = 'matisse'
+//    publishVersion = '0.5.1'
+//    desc = 'A well-designed local image selector for Android'
+//    website = 'https://www.zhihu.com/'
+//}
+//
+//task checkstyle(type:Checkstyle) {
+//    description 'Runs Checkstyle inspection against matisse sourcesets.'
+//    group = 'Code Quality'
+//    configFile rootProject.file('checkstyle.xml')
+//    ignoreFailures = false
+//    showViolations true
+//    classpath = files()
+//    source 'src/main/java'
+//}
