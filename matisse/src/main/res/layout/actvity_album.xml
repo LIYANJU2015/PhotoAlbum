@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/color_ffffff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/toolbar"
+        android:background="@color/color_fafafa"
+        android:paddingTop="13dp"
+        android:paddingBottom="13dp"
+        android:paddingEnd="18dp"
+        android:paddingRight="18dp"
+        android:paddingStart="17dp"
+        android:paddingLeft="17dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/sc_photo_title_tv"
+            android:textSize="18dp"
+            android:textColor="@color/color_333333"
+            android:layout_centerInParent="true"
+            android:text="@string/sc_pa_all_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textSize="15dp"
+            android:textColor="@color/color_333333"
+            android:text="@string/sc_pa_cancel"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#00000000"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:paddingBottom="@dimen/media_grid_spacing"
+        android:paddingTop="@dimen/media_grid_spacing"/>
+
+</LinearLayout>
