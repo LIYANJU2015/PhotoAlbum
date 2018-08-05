@@ -20,7 +20,7 @@ android {
     buildToolsVersion '27.0.3'
 
     defaultConfig {
-        applicationId 'com2.zhihu2.matisse2.sample'
+        applicationId 'com.photoalbum.firstapp.numberone'
         minSdkVersion 14
         targetSdkVersion 27
         versionCode 1
