@@ -73,9 +73,9 @@ dependencies {
     implementation 'com.squareup.picasso:picasso:2.5.2'
 
 
-    compile('com.facebook.android:audience-network-sdk:4.28.2') {
-        exclude module: 'support-v4'
-    }
+//    compile('com.facebook.android:audience-network-sdk:4.28.2') {
+//        exclude module: 'support-v4'
+//    }
 
 
 }
