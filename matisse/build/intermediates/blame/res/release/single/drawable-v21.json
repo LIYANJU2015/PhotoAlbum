@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/liyanju/BaiDu/Matisse-0.5.1/matisse/build/intermediates/res/merged/release/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/Users/liyanju/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/4b18addb69a5e3165499f22df3aa32bb/res/drawable-v21/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/liyanju/BaiDu/Matisse-0.5.1/matisse/build/intermediates/res/merged/release/drawable-v21/notification_action_background.xml",
+        "source": "/Users/liyanju/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/668ff80078254f6bbb7a828e94cf6119/res/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "/Users/liyanju/BaiDu/Matisse-0.5.1/matisse/build/intermediates/res/merged/release/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/Users/liyanju/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/4b18addb69a5e3165499f22df3aa32bb/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "/Users/liyanju/BaiDu/Matisse-0.5.1/matisse/build/intermediates/res/merged/release/drawable-v21/abc_edit_text_material.xml",
+        "source": "/Users/liyanju/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/4b18addb69a5e3165499f22df3aa32bb/res/drawable-v21/abc_edit_text_material.xml"
+    }
+]

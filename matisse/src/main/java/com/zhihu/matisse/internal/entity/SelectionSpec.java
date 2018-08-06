@@ -37,8 +37,8 @@ public final class SelectionSpec {
     public boolean showSingleMediaType;
     @StyleRes
     public int themeId;
-    public int orientation;
-    public boolean countable;
+    public int orientation = ActivityInfo.SCREEN_ORIENTATION_PORTRAIT;
+    public boolean countable = true;
     public int maxSelectable;
     public int maxImageSelectable;
     public int maxVideoSelectable;
@@ -47,12 +47,12 @@ public final class SelectionSpec {
     public CaptureStrategy captureStrategy;
     public int spanCount;
     public int gridExpectedSize;
-    public float thumbnailScale;
+    public float thumbnailScale = 0.85f;
     public ImageEngine imageEngine;
     public boolean hasInited;
     public OnSelectedListener onSelectedListener;
-    public boolean originalable;
-    public int originalMaxSize;
+    public boolean originalable = true;
+    public int originalMaxSize = 10;
     public OnCheckedListener onCheckedListener;
 
     private SelectionSpec() {
@@ -73,20 +73,20 @@ public final class SelectionSpec {
         mediaTypeExclusive = true;
         showSingleMediaType = false;
         themeId = R.style.Matisse_Zhihu;
-        orientation = 0;
-        countable = false;
+        orientation = ActivityInfo.SCREEN_ORIENTATION_PORTRAIT;
+        countable = true;
         maxSelectable = 1;
         maxImageSelectable = 0;
         maxVideoSelectable = 0;
         filters = null;
         capture = false;
         captureStrategy = null;
-        spanCount = 3;
+        spanCount = 4;
         gridExpectedSize = 0;
-        thumbnailScale = 0.5f;
+        thumbnailScale = 0.85f;
         imageEngine = new GlideEngine();
         hasInited = true;
-        originalable = false;
+        originalable = true;
         originalMaxSize = Integer.MAX_VALUE;
     }
 

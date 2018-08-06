@@ -1,0 +1,48 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/liyanju/BaiDu/Matisse-0.5.1/matisse/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-tr-rTR/values-tr-rTR.xml",
+            "map": [
+                {
+                    "source": "/Users/liyanju/BaiDu/Matisse-0.5.1/matisse/src/main/res/values-tr-rTR/strings.xml",
+                    "from": {
+                        "startLines": "17,21,20,22,25,19,24,31,33,28,27,30,32,29,23",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "633,796,740,850,1004,687,949,1350,1516,1140,1049,1289,1420,1228,895",
+                        "endColumns": "52,53,55,44,43,52,54,69,109,87,90,60,95,60,53",
+                        "endOffsets": "681,845,791,890,1043,735,999,1415,1621,1223,1135,1345,1511,1284,944"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,108,162,218,263,307,360,415,485,595,683,774,835,931,992",
+                        "endColumns": "52,53,55,44,43,52,54,69,109,87,90,60,95,60,53",
+                        "endOffsets": "103,157,213,258,302,355,410,480,590,678,769,830,926,987,1041"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/liyanju/BaiDu/Matisse-0.5.1/matisse/build/intermediates/res/merged/release/values-tr-rTR/values-tr-rTR.xml",
+            "map": [
+                {
+                    "source": "/Users/liyanju/BaiDu/Matisse-0.5.1/matisse/src/main/res/values-tr-rTR/strings.xml",
+                    "from": {
+                        "startLines": "17,21,20,22,25,19,24,31,33,28,27,30,32,29,23",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "633,796,740,850,1004,687,949,1350,1516,1140,1049,1289,1420,1228,895",
+                        "endColumns": "52,53,55,44,43,52,54,69,109,87,90,60,95,60,53",
+                        "endOffsets": "681,845,791,890,1043,735,999,1415,1621,1223,1135,1345,1511,1284,944"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,108,162,218,263,307,360,415,485,595,683,774,835,931,992",
+                        "endColumns": "52,53,55,44,43,52,54,69,109,87,90,60,95,60,53",
+                        "endOffsets": "103,157,213,258,302,355,410,480,590,678,769,830,926,987,1041"
+                    }
+                }
+            ]
+        }
+    ]
+}

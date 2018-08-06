@@ -52,6 +52,7 @@ import com.zhihu.matisse.internal.ui.widget.IncapableDialog;
 import com.zhihu.matisse.internal.utils.MediaStoreCompat;
 import com.zhihu.matisse.internal.utils.PathUtils;
 import com.zhihu.matisse.internal.utils.PhotoMetadataUtils;
+import com.zhihu.matisse.internal.utils.UIUtils;
 
 import java.util.ArrayList;
 
@@ -110,11 +111,9 @@ public class MatisseActivity extends AppCompatActivity implements
             return;
         }
 
-        if (Build.VERSION.SDK_INT >= 22) {
-            getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR);
-        }
-
         setContentView(R.layout.activity_matisse);
+
+        UIUtils.setStatusBarFullTransparent(this);
 
         if (mSpec.needOrientationRestriction()) {
             setRequestedOrientation(mSpec.orientation);

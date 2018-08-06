@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "/Users/liyanju/BaiDu/Matisse-0.5.1/matisse/build/intermediates/res/merged/release/color-v23/abc_btn_colored_borderless_text_material.xml",
+        "source": "/Users/liyanju/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/4b18addb69a5e3165499f22df3aa32bb/res/color-v23/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/Users/liyanju/BaiDu/Matisse-0.5.1/matisse/build/intermediates/res/merged/release/color-v23/abc_tint_edittext.xml",
+        "source": "/Users/liyanju/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/4b18addb69a5e3165499f22df3aa32bb/res/color-v23/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "/Users/liyanju/BaiDu/Matisse-0.5.1/matisse/build/intermediates/res/merged/release/color-v23/abc_tint_switch_track.xml",
+        "source": "/Users/liyanju/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/4b18addb69a5e3165499f22df3aa32bb/res/color-v23/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/Users/liyanju/BaiDu/Matisse-0.5.1/matisse/build/intermediates/res/merged/release/color-v23/abc_tint_default.xml",
+        "source": "/Users/liyanju/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/4b18addb69a5e3165499f22df3aa32bb/res/color-v23/abc_tint_default.xml"
+    },
+    {
+        "merged": "/Users/liyanju/BaiDu/Matisse-0.5.1/matisse/build/intermediates/res/merged/release/color-v23/abc_tint_btn_checkable.xml",
+        "source": "/Users/liyanju/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/4b18addb69a5e3165499f22df3aa32bb/res/color-v23/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/Users/liyanju/BaiDu/Matisse-0.5.1/matisse/build/intermediates/res/merged/release/color-v23/abc_color_highlight_material.xml",
+        "source": "/Users/liyanju/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/4b18addb69a5e3165499f22df3aa32bb/res/color-v23/abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "/Users/liyanju/BaiDu/Matisse-0.5.1/matisse/build/intermediates/res/merged/release/color-v23/abc_tint_spinner.xml",
+        "source": "/Users/liyanju/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/4b18addb69a5e3165499f22df3aa32bb/res/color-v23/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/Users/liyanju/BaiDu/Matisse-0.5.1/matisse/build/intermediates/res/merged/release/color-v23/abc_btn_colored_text_material.xml",
+        "source": "/Users/liyanju/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/4b18addb69a5e3165499f22df3aa32bb/res/color-v23/abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "/Users/liyanju/BaiDu/Matisse-0.5.1/matisse/build/intermediates/res/merged/release/color-v23/abc_tint_seek_thumb.xml",
+        "source": "/Users/liyanju/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/4b18addb69a5e3165499f22df3aa32bb/res/color-v23/abc_tint_seek_thumb.xml"
+    }
+]

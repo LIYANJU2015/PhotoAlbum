@@ -99,11 +99,12 @@ public class MediaSelectionFragment extends Fragment implements
 
         int spanCount;
         SelectionSpec selectionSpec = SelectionSpec.getInstance();
-        if (selectionSpec.gridExpectedSize > 0) {
+        selectionSpec.gridExpectedSize = getResources().getDimensionPixelSize(R.dimen.grid_expected_size);
+//        if (selectionSpec.gridExpectedSize > 0) {
             spanCount = UIUtils.spanCount(getContext(), selectionSpec.gridExpectedSize);
-        } else {
-            spanCount = selectionSpec.spanCount;
-        }
+//        } else {
+//            spanCount = selectionSpec.spanCount;
+//        }
         mRecyclerView.setLayoutManager(new GridLayoutManager(getContext(), spanCount));
 
         int spacing = getResources().getDimensionPixelSize(R.dimen.media_grid_spacing);

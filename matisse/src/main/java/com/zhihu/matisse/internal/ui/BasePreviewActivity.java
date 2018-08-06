@@ -30,6 +30,7 @@ import android.util.Log;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
+import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -47,6 +48,7 @@ import com.zhihu.matisse.internal.ui.widget.CheckView;
 import com.zhihu.matisse.internal.ui.widget.IncapableDialog;
 import com.zhihu.matisse.internal.utils.PhotoMetadataUtils;
 import com.zhihu.matisse.internal.utils.Platform;
+import com.zhihu.matisse.internal.utils.UIUtils;
 
 import java.util.Iterator;
 import java.util.Set;
@@ -81,37 +83,18 @@ public abstract class BasePreviewActivity extends AppCompatActivity implements V
 
     private PreviewRecyclerViewAdapter mPreviewAdapter;
 
-    protected void setStatusBarFullTransparent() {
-        if (Build.VERSION.SDK_INT >= 21) {
-            Window window = getWindow();
-            window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
-            window.getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN
-                    | View.SYSTEM_UI_FLAG_LAYOUT_STABLE);
-            window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
-            window.setStatusBarColor(Color.TRANSPARENT);
-        } else if (Build.VERSION.SDK_INT >= 19) {//19表示4.4
-            getWindow().addFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
-            //虚拟键盘也透明
-            //getWindow().addFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_NAVIGATION);
-        }
-
-        if (Build.VERSION.SDK_INT >= 22) {
-            getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR);
-        }
-    }
-
     public void showOrHideTopBottomView() {
         if (mPreviewBottomView.getVisibility() == View.VISIBLE) {
             mPreviewBottomView.setVisibility(View.GONE);
-            mPreviewBottomView.setAnimation(AnimationUtils.loadAnimation(this, R.anim.preview_bottom_out));
+            mPreviewBottomView.setAnimation(mBottomOutAnimation);
             mPreviewTopView.setVisibility(View.GONE);
-            mPreviewTopView.setAnimation(AnimationUtils.loadAnimation(this, R.anim.preview_top_out));
+            mPreviewTopView.setAnimation(mTopOutAnimation);
             mPreviewRecyclerView.setVisibility(View.INVISIBLE);
         } else {
             mPreviewBottomView.setVisibility(View.VISIBLE);
             mPreviewTopView.setVisibility(View.VISIBLE);
-            mPreviewBottomView.setAnimation(AnimationUtils.loadAnimation(this, R.anim.preview_bottom_in));
-            mPreviewTopView.setAnimation(AnimationUtils.loadAnimation(this, R.anim.preview_top_in));
+            mPreviewBottomView.setAnimation(mBottomInAnimation);
+            mPreviewTopView.setAnimation(mTopInAnimation);
 
             if (mPreviewAdapter.getItemCount() > 0) {
                 mPreviewRecyclerView.setVisibility(View.VISIBLE);
@@ -120,6 +103,11 @@ public abstract class BasePreviewActivity extends AppCompatActivity implements V
             }
         }
     }
+
+    private Animation mBottomOutAnimation;
+    private Animation mBottomInAnimation;
+    private Animation mTopInAnimation;
+    private Animation mTopOutAnimation;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -131,7 +119,13 @@ public abstract class BasePreviewActivity extends AppCompatActivity implements V
             return;
         }
         setContentView(R.layout.activity_media_preview);
-        setStatusBarFullTransparent();
+
+        UIUtils.setStatusBarFullTransparent(this);
+
+        mBottomOutAnimation = AnimationUtils.loadAnimation(this, R.anim.preview_bottom_out);
+        mBottomInAnimation = AnimationUtils.loadAnimation(this, R.anim.preview_bottom_in);
+        mTopInAnimation = AnimationUtils.loadAnimation(this, R.anim.preview_top_in);
+        mTopOutAnimation = AnimationUtils.loadAnimation(this, R.anim.preview_top_out);
 
         mSpec = SelectionSpec.getInstance();
         if (mSpec.needOrientationRestriction()) {

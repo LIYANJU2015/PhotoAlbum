@@ -114,33 +114,33 @@ public final class SelectionCreator {
         return this;
     }
 
-    /**
-     * Theme for media selecting Activity.
-     * <p>
-     * There are two built-in themes:
-     * 1. com.zhihu.matisse.R.style.Matisse_Zhihu;
-     * 2. com.zhihu.matisse.R.style.Matisse_Dracula
-     * you can define a custom theme derived from the above ones or other themes.
-     *
-     * @param themeId theme resource id. Default value is com.zhihu.matisse.R.style.Matisse_Zhihu.
-     * @return {@link SelectionCreator} for fluent API.
-     */
-    public SelectionCreator theme(@StyleRes int themeId) {
-        mSelectionSpec.themeId = themeId;
-        return this;
-    }
+//    /**
+//     * Theme for media selecting Activity.
+//     * <p>
+//     * There are two built-in themes:
+//     * 1. com.zhihu.matisse.R.style.Matisse_Zhihu;
+//     * 2. com.zhihu.matisse.R.style.Matisse_Dracula
+//     * you can define a custom theme derived from the above ones or other themes.
+//     *
+//     * @param themeId theme resource id. Default value is com.zhihu.matisse.R.style.Matisse_Zhihu.
+//     * @return {@link SelectionCreator} for fluent API.
+//     */
+//    public SelectionCreator theme(@StyleRes int themeId) {
+//        mSelectionSpec.themeId = themeId;
+//        return this;
+//    }
 
-    /**
-     * Show a auto-increased number or a check mark when user select media.
-     *
-     * @param countable true for a auto-increased number from 1, false for a check mark. Default
-     *                  value is false.
-     * @return {@link SelectionCreator} for fluent API.
-     */
-    public SelectionCreator countable(boolean countable) {
-        mSelectionSpec.countable = countable;
-        return this;
-    }
+//    /**
+//     * Show a auto-increased number or a check mark when user select media.
+//     *
+//     * @param countable true for a auto-increased number from 1, false for a check mark. Default
+//     *                  value is false.
+//     * @return {@link SelectionCreator} for fluent API.
+//     */
+//    public SelectionCreator countable(boolean countable) {
+//        mSelectionSpec.countable = countable;
+//        return this;
+//    }
 
     /**
      * Maximum selectable count.

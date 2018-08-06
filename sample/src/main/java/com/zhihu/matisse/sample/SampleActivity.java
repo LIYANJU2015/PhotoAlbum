@@ -17,12 +17,9 @@ package com.zhihu.matisse.sample;
 
 import android.Manifest;
 import android.content.Intent;
-import android.content.pm.ActivityInfo;
 import android.net.Uri;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.StaggeredGridLayoutManager;
 import android.util.Log;
@@ -30,21 +27,13 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 import com.facebook.ads.Ad;
-import com.facebook.ads.NativeAd;
 import com.tbruyelle.rxpermissions2.RxPermissions;
 import com.zhihu.matisse.Matisse;
 import com.zhihu.matisse.MimeType;
-import com.zhihu.matisse.engine.impl.GlideEngine;
-import com.zhihu.matisse.engine.impl.PicassoEngine;
-import com.zhihu.matisse.filter.Filter;
-import com.zhihu.matisse.internal.entity.CaptureStrategy;
-import com.zhihu.matisse.listener.OnCheckedListener;
-import com.zhihu.matisse.listener.OnSelectedListener;
 
 import java.util.List;
 
@@ -95,36 +84,35 @@ public class SampleActivity extends AppCompatActivity implements View.OnClickLis
                             switch (v.getId()) {
                                 case R.id.zhihu:
                                     Matisse.from(SampleActivity.this)
-                                            .choose(MimeType.ofAll(), false)
-                                            .countable(true)
+                                            .choose(MimeType.ofImage(), false)
                                             .maxSelectable(9)
-                                            .addFilter(new GifSizeFilter(320, 320, 5 * Filter.K * Filter.K))
+//                                            .addFilter(new GifSizeFilter(320, 320, 5 * Filter.K * Filter.K))
                                             .gridExpectedSize(
                                                     getResources().getDimensionPixelSize(R.dimen.grid_expected_size))
-                                            .restrictOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT)
-                                            .thumbnailScale(0.85f)
+//                                            .restrictOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT)
+//                                            .thumbnailScale(0.85f)
                                             // for glide-V3
 //                                            .imageEngine(new GlideEngine())
                                             // for glide-V4
-                                            .imageEngine(new Glide4Engine())
-                                            .setOnSelectedListener(new OnSelectedListener() {
-                                                @Override
-                                                public void onSelected(
-                                                        @NonNull List<Uri> uriList, @NonNull List<String> pathList) {
-                                                    // DO SOMETHING IMMEDIATELY HERE
-                                                    Log.e("onSelected", "onSelected: pathList=" + pathList);
-
-                                                }
-                                            })
-                                            .originalEnable(true)
-                                            .maxOriginalSize(10)
-                                            .setOnCheckedListener(new OnCheckedListener() {
-                                                @Override
-                                                public void onCheck(boolean isChecked) {
-                                                    // DO SOMETHING IMMEDIATELY HERE
-                                                    Log.e("isChecked", "onCheck: isChecked=" + isChecked);
-                                                }
-                                            })
+//                                            .imageEngine(new Glide4Engine())
+//                                            .setOnSelectedListener(new OnSelectedListener() {
+//                                                @Override
+//                                                public void onSelected(
+//                                                        @NonNull List<Uri> uriList, @NonNull List<String> pathList) {
+//                                                    // DO SOMETHING IMMEDIATELY HERE
+//                                                    Log.e("onSelected", "onSelected: pathList=" + pathList);
+//
+//                                                }
+//                                            })
+//                                            .originalEnable(true)
+//                                            .maxOriginalSize(10)
+//                                            .setOnCheckedListener(new OnCheckedListener() {
+//                                                @Override
+//                                                public void onCheck(boolean isChecked) {
+//                                                    // DO SOMETHING IMMEDIATELY HERE
+//                                                    Log.e("isChecked", "onCheck: isChecked=" + isChecked);
+//                                                }
+//                                            })
                                             .forResult(REQUEST_CODE_CHOOSE);
                                     break;
 //                                case R.id.dracula:

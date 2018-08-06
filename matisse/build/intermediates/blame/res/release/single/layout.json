@@ -1,0 +1,226 @@
+[
+    {
+        "merged": "/Users/liyanju/BaiDu/Matisse-0.5.1/matisse/build/intermediates/res/merged/release/layout/album_list_item.xml",
+        "source": "/Users/liyanju/BaiDu/Matisse-0.5.1/matisse/src/main/res/layout/album_list_item.xml"
+    },
+    {
+        "merged": "/Users/liyanju/BaiDu/Matisse-0.5.1/matisse/build/intermediates/res/merged/release/layout/abc_action_menu_layout.xml",
+        "source": "/Users/liyanju/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/4b18addb69a5e3165499f22df3aa32bb/res/layout/abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/liyanju/BaiDu/Matisse-0.5.1/matisse/build/intermediates/res/merged/release/layout/notification_template_media_custom.xml",
+        "source": "/Users/liyanju/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/5305a36cd7bf2c5c0e8ab8fae3f03441/res/layout/notification_template_media_custom.xml"
+    },
+    {
+        "merged": "/Users/liyanju/BaiDu/Matisse-0.5.1/matisse/build/intermediates/res/merged/release/layout/notification_template_big_media.xml",
+        "source": "/Users/liyanju/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/5305a36cd7bf2c5c0e8ab8fae3f03441/res/layout/notification_template_big_media.xml"
+    },
+    {
+        "merged": "/Users/liyanju/BaiDu/Matisse-0.5.1/matisse/build/intermediates/res/merged/release/layout/abc_action_menu_item_layout.xml",
+        "source": "/Users/liyanju/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/4b18addb69a5e3165499f22df3aa32bb/res/layout/abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/liyanju/BaiDu/Matisse-0.5.1/matisse/build/intermediates/res/merged/release/layout/notification_template_part_time.xml",
+        "source": "/Users/liyanju/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/668ff80078254f6bbb7a828e94cf6119/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/Users/liyanju/BaiDu/Matisse-0.5.1/matisse/build/intermediates/res/merged/release/layout/abc_list_menu_item_icon.xml",
+        "source": "/Users/liyanju/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/4b18addb69a5e3165499f22df3aa32bb/res/layout/abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "/Users/liyanju/BaiDu/Matisse-0.5.1/matisse/build/intermediates/res/merged/release/layout/preview_item.xml",
+        "source": "/Users/liyanju/BaiDu/Matisse-0.5.1/matisse/src/main/res/layout/preview_item.xml"
+    },
+    {
+        "merged": "/Users/liyanju/BaiDu/Matisse-0.5.1/matisse/build/intermediates/res/merged/release/layout/notification_template_big_media_custom.xml",
+        "source": "/Users/liyanju/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/5305a36cd7bf2c5c0e8ab8fae3f03441/res/layout/notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "/Users/liyanju/BaiDu/Matisse-0.5.1/matisse/build/intermediates/res/merged/release/layout/notification_template_icon_group.xml",
+        "source": "/Users/liyanju/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/668ff80078254f6bbb7a828e94cf6119/res/layout/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/liyanju/BaiDu/Matisse-0.5.1/matisse/build/intermediates/res/merged/release/layout/notification_media_cancel_action.xml",
+        "source": "/Users/liyanju/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/5305a36cd7bf2c5c0e8ab8fae3f03441/res/layout/notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "/Users/liyanju/BaiDu/Matisse-0.5.1/matisse/build/intermediates/res/merged/release/layout/notification_template_custom_big.xml",
+        "source": "/Users/liyanju/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/668ff80078254f6bbb7a828e94cf6119/res/layout/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/liyanju/BaiDu/Matisse-0.5.1/matisse/build/intermediates/res/merged/release/layout/select_dialog_singlechoice_material.xml",
+        "source": "/Users/liyanju/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/4b18addb69a5e3165499f22df3aa32bb/res/layout/select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "/Users/liyanju/BaiDu/Matisse-0.5.1/matisse/build/intermediates/res/merged/release/layout/abc_action_bar_up_container.xml",
+        "source": "/Users/liyanju/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/4b18addb69a5e3165499f22df3aa32bb/res/layout/abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "/Users/liyanju/BaiDu/Matisse-0.5.1/matisse/build/intermediates/res/merged/release/layout/abc_screen_simple.xml",
+        "source": "/Users/liyanju/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/4b18addb69a5e3165499f22df3aa32bb/res/layout/abc_screen_simple.xml"
+    },
+    {
+        "merged": "/Users/liyanju/BaiDu/Matisse-0.5.1/matisse/build/intermediates/res/merged/release/layout/abc_screen_content_include.xml",
+        "source": "/Users/liyanju/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/4b18addb69a5e3165499f22df3aa32bb/res/layout/abc_screen_content_include.xml"
+    },
+    {
+        "merged": "/Users/liyanju/BaiDu/Matisse-0.5.1/matisse/build/intermediates/res/merged/release/layout/abc_dialog_title_material.xml",
+        "source": "/Users/liyanju/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/4b18addb69a5e3165499f22df3aa32bb/res/layout/abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "/Users/liyanju/BaiDu/Matisse-0.5.1/matisse/build/intermediates/res/merged/release/layout/abc_alert_dialog_title_material.xml",
+        "source": "/Users/liyanju/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/4b18addb69a5e3165499f22df3aa32bb/res/layout/abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "/Users/liyanju/BaiDu/Matisse-0.5.1/matisse/build/intermediates/res/merged/release/layout/fragment_media_selection.xml",
+        "source": "/Users/liyanju/BaiDu/Matisse-0.5.1/matisse/src/main/res/layout/fragment_media_selection.xml"
+    },
+    {
+        "merged": "/Users/liyanju/BaiDu/Matisse-0.5.1/matisse/build/intermediates/res/merged/release/layout/abc_activity_chooser_view.xml",
+        "source": "/Users/liyanju/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/4b18addb69a5e3165499f22df3aa32bb/res/layout/abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "/Users/liyanju/BaiDu/Matisse-0.5.1/matisse/build/intermediates/res/merged/release/layout/activity_media_preview.xml",
+        "source": "/Users/liyanju/BaiDu/Matisse-0.5.1/matisse/src/main/res/layout/activity_media_preview.xml"
+    },
+    {
+        "merged": "/Users/liyanju/BaiDu/Matisse-0.5.1/matisse/build/intermediates/res/merged/release/layout/media_grid_item.xml",
+        "source": "/Users/liyanju/BaiDu/Matisse-0.5.1/matisse/src/main/res/layout/media_grid_item.xml"
+    },
+    {
+        "merged": "/Users/liyanju/BaiDu/Matisse-0.5.1/matisse/build/intermediates/res/merged/release/layout/abc_screen_toolbar.xml",
+        "source": "/Users/liyanju/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/4b18addb69a5e3165499f22df3aa32bb/res/layout/abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "/Users/liyanju/BaiDu/Matisse-0.5.1/matisse/build/intermediates/res/merged/release/layout/actvity_album.xml",
+        "source": "/Users/liyanju/BaiDu/Matisse-0.5.1/matisse/src/main/res/layout/actvity_album.xml"
+    },
+    {
+        "merged": "/Users/liyanju/BaiDu/Matisse-0.5.1/matisse/build/intermediates/res/merged/release/layout/activity_matisse.xml",
+        "source": "/Users/liyanju/BaiDu/Matisse-0.5.1/matisse/src/main/res/layout/activity_matisse.xml"
+    },
+    {
+        "merged": "/Users/liyanju/BaiDu/Matisse-0.5.1/matisse/build/intermediates/res/merged/release/layout/abc_alert_dialog_button_bar_material.xml",
+        "source": "/Users/liyanju/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/4b18addb69a5e3165499f22df3aa32bb/res/layout/abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "/Users/liyanju/BaiDu/Matisse-0.5.1/matisse/build/intermediates/res/merged/release/layout/abc_list_menu_item_layout.xml",
+        "source": "/Users/liyanju/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/4b18addb69a5e3165499f22df3aa32bb/res/layout/abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/liyanju/BaiDu/Matisse-0.5.1/matisse/build/intermediates/res/merged/release/layout/fragment_preview_item.xml",
+        "source": "/Users/liyanju/BaiDu/Matisse-0.5.1/matisse/src/main/res/layout/fragment_preview_item.xml"
+    },
+    {
+        "merged": "/Users/liyanju/BaiDu/Matisse-0.5.1/matisse/build/intermediates/res/merged/release/layout/abc_list_menu_item_checkbox.xml",
+        "source": "/Users/liyanju/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/4b18addb69a5e3165499f22df3aa32bb/res/layout/abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "/Users/liyanju/BaiDu/Matisse-0.5.1/matisse/build/intermediates/res/merged/release/layout/abc_search_dropdown_item_icons_2line.xml",
+        "source": "/Users/liyanju/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/4b18addb69a5e3165499f22df3aa32bb/res/layout/abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "/Users/liyanju/BaiDu/Matisse-0.5.1/matisse/build/intermediates/res/merged/release/layout/notification_template_big_media_narrow_custom.xml",
+        "source": "/Users/liyanju/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/5305a36cd7bf2c5c0e8ab8fae3f03441/res/layout/notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "/Users/liyanju/BaiDu/Matisse-0.5.1/matisse/build/intermediates/res/merged/release/layout/support_simple_spinner_dropdown_item.xml",
+        "source": "/Users/liyanju/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/4b18addb69a5e3165499f22df3aa32bb/res/layout/support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "/Users/liyanju/BaiDu/Matisse-0.5.1/matisse/build/intermediates/res/merged/release/layout/abc_tooltip.xml",
+        "source": "/Users/liyanju/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/4b18addb69a5e3165499f22df3aa32bb/res/layout/abc_tooltip.xml"
+    },
+    {
+        "merged": "/Users/liyanju/BaiDu/Matisse-0.5.1/matisse/build/intermediates/res/merged/release/layout/abc_screen_simple_overlay_action_mode.xml",
+        "source": "/Users/liyanju/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/4b18addb69a5e3165499f22df3aa32bb/res/layout/abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "/Users/liyanju/BaiDu/Matisse-0.5.1/matisse/build/intermediates/res/merged/release/layout/abc_action_bar_title_item.xml",
+        "source": "/Users/liyanju/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/4b18addb69a5e3165499f22df3aa32bb/res/layout/abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "/Users/liyanju/BaiDu/Matisse-0.5.1/matisse/build/intermediates/res/merged/release/layout/abc_list_menu_item_radio.xml",
+        "source": "/Users/liyanju/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/4b18addb69a5e3165499f22df3aa32bb/res/layout/abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "/Users/liyanju/BaiDu/Matisse-0.5.1/matisse/build/intermediates/res/merged/release/layout/notification_template_media.xml",
+        "source": "/Users/liyanju/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/5305a36cd7bf2c5c0e8ab8fae3f03441/res/layout/notification_template_media.xml"
+    },
+    {
+        "merged": "/Users/liyanju/BaiDu/Matisse-0.5.1/matisse/build/intermediates/res/merged/release/layout/notification_template_big_media_narrow.xml",
+        "source": "/Users/liyanju/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/5305a36cd7bf2c5c0e8ab8fae3f03441/res/layout/notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "/Users/liyanju/BaiDu/Matisse-0.5.1/matisse/build/intermediates/res/merged/release/layout/abc_popup_menu_item_layout.xml",
+        "source": "/Users/liyanju/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/4b18addb69a5e3165499f22df3aa32bb/res/layout/abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/liyanju/BaiDu/Matisse-0.5.1/matisse/build/intermediates/res/merged/release/layout/abc_action_mode_bar.xml",
+        "source": "/Users/liyanju/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/4b18addb69a5e3165499f22df3aa32bb/res/layout/abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "/Users/liyanju/BaiDu/Matisse-0.5.1/matisse/build/intermediates/res/merged/release/layout/abc_alert_dialog_material.xml",
+        "source": "/Users/liyanju/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/4b18addb69a5e3165499f22df3aa32bb/res/layout/abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "/Users/liyanju/BaiDu/Matisse-0.5.1/matisse/build/intermediates/res/merged/release/layout/abc_popup_menu_header_item_layout.xml",
+        "source": "/Users/liyanju/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/4b18addb69a5e3165499f22df3aa32bb/res/layout/abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "/Users/liyanju/BaiDu/Matisse-0.5.1/matisse/build/intermediates/res/merged/release/layout/abc_action_mode_close_item_material.xml",
+        "source": "/Users/liyanju/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/4b18addb69a5e3165499f22df3aa32bb/res/layout/abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "/Users/liyanju/BaiDu/Matisse-0.5.1/matisse/build/intermediates/res/merged/release/layout/notification_media_action.xml",
+        "source": "/Users/liyanju/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/5305a36cd7bf2c5c0e8ab8fae3f03441/res/layout/notification_media_action.xml"
+    },
+    {
+        "merged": "/Users/liyanju/BaiDu/Matisse-0.5.1/matisse/build/intermediates/res/merged/release/layout/abc_expanded_menu_layout.xml",
+        "source": "/Users/liyanju/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/4b18addb69a5e3165499f22df3aa32bb/res/layout/abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/liyanju/BaiDu/Matisse-0.5.1/matisse/build/intermediates/res/merged/release/layout/select_dialog_item_material.xml",
+        "source": "/Users/liyanju/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/4b18addb69a5e3165499f22df3aa32bb/res/layout/select_dialog_item_material.xml"
+    },
+    {
+        "merged": "/Users/liyanju/BaiDu/Matisse-0.5.1/matisse/build/intermediates/res/merged/release/layout/notification_template_part_chronometer.xml",
+        "source": "/Users/liyanju/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/668ff80078254f6bbb7a828e94cf6119/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/Users/liyanju/BaiDu/Matisse-0.5.1/matisse/build/intermediates/res/merged/release/layout/media_grid_content.xml",
+        "source": "/Users/liyanju/BaiDu/Matisse-0.5.1/matisse/src/main/res/layout/media_grid_content.xml"
+    },
+    {
+        "merged": "/Users/liyanju/BaiDu/Matisse-0.5.1/matisse/build/intermediates/res/merged/release/layout/notification_template_lines_media.xml",
+        "source": "/Users/liyanju/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/5305a36cd7bf2c5c0e8ab8fae3f03441/res/layout/notification_template_lines_media.xml"
+    },
+    {
+        "merged": "/Users/liyanju/BaiDu/Matisse-0.5.1/matisse/build/intermediates/res/merged/release/layout/notification_action.xml",
+        "source": "/Users/liyanju/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/668ff80078254f6bbb7a828e94cf6119/res/layout/notification_action.xml"
+    },
+    {
+        "merged": "/Users/liyanju/BaiDu/Matisse-0.5.1/matisse/build/intermediates/res/merged/release/layout/photo_capture_item.xml",
+        "source": "/Users/liyanju/BaiDu/Matisse-0.5.1/matisse/src/main/res/layout/photo_capture_item.xml"
+    },
+    {
+        "merged": "/Users/liyanju/BaiDu/Matisse-0.5.1/matisse/build/intermediates/res/merged/release/layout/abc_select_dialog_material.xml",
+        "source": "/Users/liyanju/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/4b18addb69a5e3165499f22df3aa32bb/res/layout/abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "/Users/liyanju/BaiDu/Matisse-0.5.1/matisse/build/intermediates/res/merged/release/layout/notification_action_tombstone.xml",
+        "source": "/Users/liyanju/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/668ff80078254f6bbb7a828e94cf6119/res/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/liyanju/BaiDu/Matisse-0.5.1/matisse/build/intermediates/res/merged/release/layout/abc_search_view.xml",
+        "source": "/Users/liyanju/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/4b18addb69a5e3165499f22df3aa32bb/res/layout/abc_search_view.xml"
+    },
+    {
+        "merged": "/Users/liyanju/BaiDu/Matisse-0.5.1/matisse/build/intermediates/res/merged/release/layout/select_dialog_multichoice_material.xml",
+        "source": "/Users/liyanju/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/4b18addb69a5e3165499f22df3aa32bb/res/layout/select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "/Users/liyanju/BaiDu/Matisse-0.5.1/matisse/build/intermediates/res/merged/release/layout/abc_activity_chooser_view_list_item.xml",
+        "source": "/Users/liyanju/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/4b18addb69a5e3165499f22df3aa32bb/res/layout/abc_activity_chooser_view_list_item.xml"
+    }
+]

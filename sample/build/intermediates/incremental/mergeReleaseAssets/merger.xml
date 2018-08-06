@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config=":matisse"><source path="/Users/liyanju/BaiDu/Matisse-0.5.1/matisse/build/intermediates/bundles/release/assets"/></dataSet><dataSet config="main"><source path="/Users/liyanju/BaiDu/Matisse-0.5.1/sample/src/main/assets"/><source path="/Users/liyanju/BaiDu/Matisse-0.5.1/sample/build/generated/assets/shaders/release"/></dataSet><dataSet config="release"><source path="/Users/liyanju/BaiDu/Matisse-0.5.1/sample/src/release/assets"/></dataSet></merger>
