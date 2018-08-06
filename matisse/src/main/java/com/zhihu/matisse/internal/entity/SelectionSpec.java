@@ -75,7 +75,7 @@ public final class SelectionSpec {
         themeId = R.style.Matisse_Zhihu;
         orientation = ActivityInfo.SCREEN_ORIENTATION_PORTRAIT;
         countable = true;
-        maxSelectable = 1;
+        maxSelectable = 9;
         maxImageSelectable = 0;
         maxVideoSelectable = 0;
         filters = null;
